@@ -8,4 +8,7 @@ start chrome.exe
 cd "C:\Riot Games\League of Legends"
 start LeagueClient.exe
 
+:: Launch PUBG
+start steam://rungameid/578080
+
 exit
