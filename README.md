@@ -25,8 +25,11 @@ start LeagueClient.exe
 ```
 
 ##### Explanation:
+
 Separate the `Target` at the last `\`
+
 `cd`: The name of the folder holding the executable
+
 `start`: The executable we want to launch
 
 Repeat these steps for every client you'd like to launch!
