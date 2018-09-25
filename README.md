@@ -12,6 +12,7 @@ We will include League of Legend's client as our example.
 Find the `Target` path for each client you'd like to launch.  There are several ways to do this, the easiest method is right clicking a desktop icon and selecting `properties`.
 
 You will find something that looks like this:
+
 ![league of legends properties](https://github.com/benzingerb1/league-of-launchers/blob/master/find_target.png?raw=true)
 
 ```
