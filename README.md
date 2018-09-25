@@ -32,5 +32,5 @@ Separate the `Target` at the last `\`
 
 `start`: The executable we want to launch
 
-Repeat these steps for every client you'd like to launch!
+Repeat these steps for every client you'd like to launch.  Your league-of-launchers.bat file should still contain `@echo off` as the first line and `exit` as the final line.
 
