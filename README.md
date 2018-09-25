@@ -19,7 +19,7 @@ You will find something that looks like this:
 "C:\Riot Games\League of Legends\LeagueClient.exe"
 ```
 
-Add the following code to your `.bat` script:
+Using the information we found in the `Target`, add the following code to your `.bat` script:
 ```
 cd "C:\Riot Games\League of Legends"
 start LeagueClient.exe
