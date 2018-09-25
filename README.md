@@ -7,5 +7,26 @@ Open all of your game client launchers at once for auto-updating (and devouring 
 This simple script will launch all of your game clients at once, forcing them to download updates.
 
 ### Installing
+We will include League of Legend's client as our example.
 
-Find the `Target` path for each client you'd like to launch.
+Find the `Target` path for each client you'd like to launch.  There are several ways to do this, the easiest method is right clicking a desktop icon and selecting `properties`.
+
+You will find something that looks like this:
+
+```
+"C:\Riot Games\League of Legends\LeagueClient.exe"
+```
+
+Add the following code to your `.bat` script:
+```
+cd "C:\Riot Games\League of Legends"
+start LeagueClient.exe
+```
+
+##### Explanation:
+Separate the `Target` at the last `\`
+`cd`: The name of the folder holding the executable
+`start`: The executable we want to launch
+
+Repeat these steps for every client you'd like to launch!
+
