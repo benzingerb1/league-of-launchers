@@ -7,7 +7,10 @@ Open all of your game client launchers at once for auto-updating (and devouring 
 This simple script will launch all of your game clients at once, forcing them to download updates.
 
 ### Installing
-We will include League of Legend's client as our example.
+
+Download the file 'league-of-launchers.bat'
+
+As an example, we will edit 'league-of-launchers.bat' to include League of Legend's client.
 
 Find the `Target` path for each client you'd like to launch.  There are several ways to do this, the easiest method is right clicking a desktop icon and selecting `properties`.
 
@@ -35,3 +38,13 @@ Separate the `Target` at the last `\`
 
 Repeat these steps for every client you'd like to launch.  Your league-of-launchers.bat file should still contain `@echo off` as the first line and `exit` as the final line.
 
+### Built-in
+
+The `.bat` script here serves as an example; it may be the case that you must fix some paths on your own.
+
+Currently deploys the following launchers:
++ Battle.net
++ League of Legends
++ Steam
++ Origin
++ Discord
